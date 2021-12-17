@@ -1,0 +1,22 @@
+body {
+  background-color: #E6E6E6;
+  font-family: sans-serif;
+}
+h1 {font-family: sans-serif;}
+h1 {align-items: center;}
+div.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+img {display: flex; max-width: 100%}
+.flex {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.half {flex-basis: 32%}
+/* FOR SMALLER SCREENS */
+@media (max-width: 700px) {
+  body {
+    background-color: white;
+  }
+
+
+  }
+}
